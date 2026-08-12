@@ -1,0 +1,878 @@
+Date: Wed, 12 Aug 2026 14:11:46 +0000 (UTC)
+Message-ID: <1461366044.93.1786543906227@394ad9f0e4e2>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_92_596391288.1786543906227"
+
+------=_Part_92_596391288.1786543906227
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Cloud Pulse - AI Optimizer</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Cloud Pulse - AI Optimizer</h1>
+    <div class=3D"Section1">
+        <h2 local-id=3D"31357da1896c" id=3D"CloudPulse-AIOptimizer-ProblemS=
+tatement">
+<style>[data-colorid=3Dl641n1q2ri]{color:#97a0af} html[data-color-mode=3Dda=
+rk] [data-colorid=3Dl641n1q2ri]{color:#505968}[data-colorid=3Dyg9zh94yph]{c=
+olor:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3Dyg9zh94yph]{colo=
+r:#505968}[data-colorid=3Djuw7e7xwpz]{color:#4c9aff} html[data-color-mode=
+=3Ddark] [data-colorid=3Djuw7e7xwpz]{color:#004eb3}[data-colorid=3Dmnxrou13=
+qp]{color:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3Dmnxrou13qp]=
+{color:#505968}[data-colorid=3Duu3awndnvc]{color:#4c9aff} html[data-color-m=
+ode=3Ddark] [data-colorid=3Duu3awndnvc]{color:#004eb3}[data-colorid=3Dx1fk3=
+qp2hj]{color:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3Dx1fk3qp2=
+hj]{color:#505968}[data-colorid=3Dj1zirhzomp]{color:#97a0af} html[data-colo=
+r-mode=3Ddark] [data-colorid=3Dj1zirhzomp]{color:#505968}[data-colorid=3Dcr=
+vlotic2e]{color:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3Dcrvlo=
+tic2e]{color:#505968}[data-colorid=3Dutaz10li9q]{color:#4c9aff} html[data-c=
+olor-mode=3Ddark] [data-colorid=3Dutaz10li9q]{color:#004eb3}[data-colorid=
+=3Dqlk95bcv6z]{color:#97a0af} html[data-color-mode=3Ddark] [data-colorid=3D=
+qlk95bcv6z]{color:#505968}[data-colorid=3Dk18xwujqd1]{color:#4c9aff} html[d=
+ata-color-mode=3Ddark] [data-colorid=3Dk18xwujqd1]{color:#004eb3}[data-colo=
+rid=3Db1n64rm0no]{color:#4c9aff} html[data-color-mode=3Ddark] [data-colorid=
+=3Db1n64rm0no]{color:#004eb3}[data-colorid=3Dg9wcnhh0lb]{color:#4c9aff} htm=
+l[data-color-mode=3Ddark] [data-colorid=3Dg9wcnhh0lb]{color:#004eb3}[data-c=
+olorid=3Dxk12r0d89p]{color:#97a0af} html[data-color-mode=3Ddark] [data-colo=
+rid=3Dxk12r0d89p]{color:#505968}[data-colorid=3Dpmrllwpc9m]{color:#4c9aff} =
+html[data-color-mode=3Ddark] [data-colorid=3Dpmrllwpc9m]{color:#004eb3}</st=
+yle>:problem_statement: <span data-colorid=3D"crvlotic2e">Problem Statement=
+</span></h2>
+<p local-id=3D"23a86e03ebe2">Modern data platforms such as Databricks rely =
+on dynamically scalable compute clusters to power ETL pipelines. The perfor=
+mance, cost efficiency, and reliability of these workloads are directly tie=
+d to how effectively clusters are configured. In practice, however, cluster=
+ configurations are frequently set up incorrectly often due to limited expe=
+rtise, manual guesswork, or the absence of automated tuning mechanisms. As =
+a result, organizations experience performance degradation, unnecessary clo=
+ud spending, operational instability, and reduced productivity for data tea=
+ms. Industry benchmarks further highlight the scale of the issue: studies i=
+ndicate that <strong>20% to 50%</strong> of total cloud spending is wasted =
+on underutilized or poorly configured resources, making cloud waste a signi=
+ficant source of financial loss for enterprises.</p>
+<p local-id=3D"8974cb731e7a"><strong>Misconfigurations may involve:</strong=
+></p>
+<ul local-id=3D"599b7ed9-8f15-4fb5-9b6c-c1d41b5d8d57">
+<li local-id=3D"598f724c-a184-43fe-b301-6e6f5343399f">
+<p local-id=3D"676429c4731e">Under-provisioning / over-provisioning of clus=
+ter resources</p></li>
+<li local-id=3D"33f6f684-9694-445e-b822-0389fa669730">
+<p local-id=3D"7fcc91c28d3e">Improper memory allocation</p></li>
+<li local-id=3D"d7b011e1-0b9b-40b8-bee4-9ccc9a94725b">
+<p local-id=3D"b48a65292a27">Poorly tuned or inefficient autoscaling config=
+urations</p></li>
+<li local-id=3D"b1d0859b-417a-4996-83b7-8ed4b59f1b78">
+<p local-id=3D"e1b342097cda">Selection of suboptimal or high-cost node type=
+s</p></li>
+</ul>
+<p local-id=3D"643ed58270c7"><strong>These misconfigurations can lead to:</=
+strong></p>
+<ul local-id=3D"e1877173-82b5-448c-8125-fcf93915adf0">
+<li local-id=3D"0d0348e9-0a26-43ce-87d3-9b11ba3d667f">
+<p local-id=3D"722e6341b7bf"><strong>Slow job execution and degraded perfor=
+mance</strong>, including prolonged shuffle and stage execution times.</p><=
+/li>
+<li local-id=3D"0883e040-7fa9-4a0e-8792-b079c7af3941">
+<p local-id=3D"a216ef0dab4d"><strong>Out-of-memory errors and job failures<=
+/strong>, leading to delayed analytics and unstable pipelines.</p></li>
+<li local-id=3D"c2d574ff-fef4-4268-8de1-3a568fcc4dbc">
+<p local-id=3D"858b0319272a"><strong>Idle executors and underutilized compu=
+te resources</strong>, resulting in poor overall cluster utilization.</p></=
+li>
+<li local-id=3D"d6a62dbe-8aa6-48b1-8e68-66e69da9480b">
+<p local-id=3D"908efd5f6ec5"><strong>Increased DBU consumption and higher c=
+loud VM costs</strong>, especially as workloads scale inefficiently.</p></l=
+i>
+</ul>
+<h1 local-id=3D"efa9f55432b3" id=3D"CloudPulse-AIOptimizer-Objective">:obje=
+ctive: <span data-colorid=3D"x1fk3qp2hj">Objective</span></h1>
+<p local-id=3D"370a96d07f98">The primary objective is to systematically mit=
+igate the performance, cost, and stability issues that stem from poorly con=
+figured Databricks clusters. This project aims to deliver a smart and autom=
+ated AI based solution that examines cluster behaviour, identifies ineffici=
+encies, and recommends configurations tailored to specific workload require=
+ments.</p>
+<p local-id=3D"55138db1a664">Cloud Pulse is intended to:</p>
+<ul local-id=3D"f8ebdf1c-7e59-448d-a36f-aff52639a705">
+<li local-id=3D"00ae8f90-c49a-491d-b1a8-3ad39a03da9b">
+<p local-id=3D"a2ed41141db2">Reduce performance bottlenecks caused by insuf=
+ficient or poorly tuned compute resources</p></li>
+<li local-id=3D"5a57188c-2a38-4418-aa92-c6e824f9f98c">
+<p local-id=3D"3e9b7cc46839">Prevent excessive cloud spending by eliminatin=
+g over-provisioning and improving autoscaling decisions</p></li>
+<li local-id=3D"009ba563-ff99-4751-8baa-337777791e08">
+<p local-id=3D"f3558685cd4b">Enhance overall workload performance through s=
+trengthened cluster stability.</p></li>
+<li local-id=3D"29a92e89-944b-4d7e-ac70-823a5acd344c">
+<p local-id=3D"575d55320da4">Provide actionable, data-driven configuration =
+recommendations for consistent and reliable optimization</p></li>
+</ul>
+<p local-id=3D"589a052f763d">In essence, the goal of this project is to rem=
+ove the risks and inefficiencies of manual or trial-and-error cluster tunin=
+g, empowering organizations to achieve optimal performance, cost efficiency=
+, and operational reliability across Databricks environments.</p>
+<h1 local-id=3D"e1fb4f1a1e0c" id=3D"CloudPulse-AIOptimizer-Approach/Methodo=
+logy">:approach_and_methodology:<strong><span data-colorid=3D"yg9zh94yph"> =
+Approach/Methodology</span></strong></h1><span class=3D"confluence-embedded=
+-file-wrapper image-center-wrapper confluence-embedded-manual-size"><img cl=
+ass=3D"confluence-embedded-image confluence-external-resource image-center"=
+ alt=3D"image-20260305-053854.png" width=3D"700" src=3D"https://media-cdn.a=
+tlassian.com/file/479ef3b5-ea79-4290-af13-40c2e91003ab/image/cdn?allowAnima=
+ted=3Dtrue&amp;client=3D9111851d-8de5-42d2-b17e-a8b4c648978c&amp;collection=
+=3DcontentId-1572208670&amp;height=3D125&amp;max-age=3D2592000&amp;mode=3Df=
+ull-fit&amp;source=3DmediaCard&amp;token=3DeyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI=
+5MTExODUxZC04ZGU1LTQyZDItYjE3ZS1hOGI0YzY0ODk3OGMiLCJhY2Nlc3MiOnsidXJuOmZpbG=
+VzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC0xNTcyMjA4NjcwIjpbInJlYWQiXX0sImV4cCI6M=
+Tc4NjUzMTI4NiwibmJmIjoxNzg2NTI4NDA2LCJhYUlkIjoiNzEyMDIwOjdjMzYwNTZiLTg2YzAt=
+NGZiNC05NGE4LWI2YWFjZGY4Nzg5OSIsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2N=
+yZWRpdGVkIjpmYWxzZSwiYXV0aFR5cGUiOiJzZXNzaW9uIn0.vVflf0IdUNBivp0DtlEDrOEcDc=
+iZEjnK8bNOWBX2ZaE&amp;width=3D760#media-blob-url=3Dtrue&amp;id=3D479ef3b5-e=
+a79-4290-af13-40c2e91003ab&amp;clientId=3D9111851d-8de5-42d2-b17e-a8b4c6489=
+78c&amp;contextId=3DcontentId-1572208670&amp;collection=3DcontentId-1572208=
+670" data-image-src=3D"https://media-cdn.atlassian.com/file/479ef3b5-ea79-4=
+290-af13-40c2e91003ab/image/cdn?allowAnimated=3Dtrue&amp;client=3D9111851d-=
+8de5-42d2-b17e-a8b4c648978c&amp;collection=3DcontentId-1572208670&amp;heigh=
+t=3D125&amp;max-age=3D2592000&amp;mode=3Dfull-fit&amp;source=3DmediaCard&am=
+p;token=3DeyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI5MTExODUxZC04ZGU1LTQyZDItYjE3ZS1h=
+OGI0YzY0ODk3OGMiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnR=
+JZC0xNTcyMjA4NjcwIjpbInJlYWQiXX0sImV4cCI6MTc4NjUzMTI4NiwibmJmIjoxNzg2NTI4ND=
+A2LCJhYUlkIjoiNzEyMDIwOjdjMzYwNTZiLTg2YzAtNGZiNC05NGE4LWI2YWFjZGY4Nzg5OSIsI=
+mh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZSwiYXV0aFR5cGUi=
+OiJzZXNzaW9uIn0.vVflf0IdUNBivp0DtlEDrOEcDciZEjnK8bNOWBX2ZaE&amp;width=3D760=
+#media-blob-url=3Dtrue&amp;id=3D479ef3b5-ea79-4290-af13-40c2e91003ab&amp;cl=
+ientId=3D9111851d-8de5-42d2-b17e-a8b4c648978c&amp;contextId=3DcontentId-157=
+2208670&amp;collection=3DcontentId-1572208670" loading=3D"lazy"></span><spa=
+n class=3D"confluence-embedded-file-wrapper image-center-wrapper confluence=
+-embedded-manual-size"><img class=3D"confluence-embedded-image confluence-e=
+xternal-resource image-center" alt=3D"Cloud Pulse Flow.drawio (3)-20260310-=
+103710.png" width=3D"438" src=3D"https://media-cdn.atlassian.com/file/cd636=
+3a9-bf97-4447-af7f-5c66739f8162/image/cdn?allowAnimated=3Dtrue&amp;client=
+=3D9111851d-8de5-42d2-b17e-a8b4c648978c&amp;collection=3DcontentId-15722086=
+70&amp;height=3D125&amp;max-age=3D2592000&amp;mode=3Dfull-fit&amp;source=3D=
+mediaCard&amp;token=3DeyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI5MTExODUxZC04ZGU1LTQy=
+ZDItYjE3ZS1hOGI0YzY0ODk3OGMiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9=
+uOmNvbnRlbnRJZC0xNTcyMjA4NjcwIjpbInJlYWQiXX0sImV4cCI6MTc4NjUzMTI4NiwibmJmIj=
+oxNzg2NTI4NDA2LCJhYUlkIjoiNzEyMDIwOjdjMzYwNTZiLTg2YzAtNGZiNC05NGE4LWI2YWFjZ=
+GY4Nzg5OSIsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZSwi=
+YXV0aFR5cGUiOiJzZXNzaW9uIn0.vVflf0IdUNBivp0DtlEDrOEcDciZEjnK8bNOWBX2ZaE&amp=
+;width=3D459#media-blob-url=3Dtrue&amp;id=3Dcd6363a9-bf97-4447-af7f-5c66739=
+f8162&amp;clientId=3D9111851d-8de5-42d2-b17e-a8b4c648978c&amp;contextId=3Dc=
+ontentId-1572208670&amp;collection=3DcontentId-1572208670" data-image-src=
+=3D"https://media-cdn.atlassian.com/file/cd6363a9-bf97-4447-af7f-5c66739f81=
+62/image/cdn?allowAnimated=3Dtrue&amp;client=3D9111851d-8de5-42d2-b17e-a8b4=
+c648978c&amp;collection=3DcontentId-1572208670&amp;height=3D125&amp;max-age=
+=3D2592000&amp;mode=3Dfull-fit&amp;source=3DmediaCard&amp;token=3DeyJhbGciO=
+iJIUzI1NiJ9.eyJpc3MiOiI5MTExODUxZC04ZGU1LTQyZDItYjE3ZS1hOGI0YzY0ODk3OGMiLCJ=
+hY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC0xNTcyMjA4NjcwIj=
+pbInJlYWQiXX0sImV4cCI6MTc4NjUzMTI4NiwibmJmIjoxNzg2NTI4NDA2LCJhYUlkIjoiNzEyM=
+DIwOjdjMzYwNTZiLTg2YzAtNGZiNC05NGE4LWI2YWFjZGY4Nzg5OSIsImh0dHBzOi8vaWQuYXRs=
+YXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZSwiYXV0aFR5cGUiOiJzZXNzaW9uIn0.vVf=
+lf0IdUNBivp0DtlEDrOEcDciZEjnK8bNOWBX2ZaE&amp;width=3D459#media-blob-url=3Dt=
+rue&amp;id=3Dcd6363a9-bf97-4447-af7f-5c66739f8162&amp;clientId=3D9111851d-8=
+de5-42d2-b17e-a8b4c648978c&amp;contextId=3DcontentId-1572208670&amp;collect=
+ion=3DcontentId-1572208670" loading=3D"lazy"></span>
+<h2 local-id=3D"55064425f17b" id=3D"CloudPulse-AIOptimizer-Step1:Comprehens=
+iveMetricsDiscoveryandFeatureRelevanceAnalysis"><strong><span data-colorid=
+=3D"g9wcnhh0lb">Step 1: Comprehensive Metrics Discovery and Feature Relevan=
+ce Analysis</span></strong></h2>
+<p local-id=3D"03c1ff2688d3"><em>(keep your existing intro and the two sour=
+ce sections =E2=80=94 Databricks System Tables / Databricks Cluster Logs =
+=E2=80=94 unchanged)</em></p>
+<p local-id=3D"b8f0d83116a7">Identifying Essential Metrics for the AI Recom=
+mendation System</p>
+<p local-id=3D"9c94990641cf"><em>(keep your existing 17-item list =E2=80=94=
+ job_id through avg_total_shuffle_write_gb =E2=80=94 unchanged, then add:)<=
+/em></p>
+<p local-id=3D"fe4e4e9775f5">Additional signals specifically powering the <=
+strong>serverless-viability scoring model</strong>:</p>
+<ul local-id=3D"09c5efe5-8675-43bc-b3b0-bfcf43c90ef1">
+<li local-id=3D"aaaa4e84-b3e5-425d-8ba6-aadfa7127224">
+<p local-id=3D"28fdd7adf235"><strong>avg_total_dis_used_gb</strong> =E2=80=
+=93 Disk spill volume. Serverless compute has no local disk, so any spill i=
+s treated as a hard disqualifier for migration.</p></li>
+<li local-id=3D"c7831aa3-cdd3-4720-8ea8-9044f02febdf">
+<p local-id=3D"d7b19b0de43f"><strong>avg_total_input_gb</strong> =E2=80=93 =
+Input data volume, used to normalize shuffle/spill intensity per job.</p></=
+li>
+<li local-id=3D"197b2f4d-66cb-459d-8d6b-82c5f03a17da">
+<p local-id=3D"c8ad98e75b97"><strong>ttl_exec_idle_pct</strong> =E2=80=93 E=
+xecutor idle percentage, a core signal for how much a job would benefit fro=
+m serverless elasticity.</p></li>
+<li local-id=3D"4dc23945-ca67-40f9-8d5d-037a516fa5ae">
+<p local-id=3D"dedc2a49de71"><strong>avg_setup_dur_sec</strong> =E2=80=93 C=
+luster startup/setup duration, used to compute startup-latency ratio agains=
+t runtime.</p></li>
+<li local-id=3D"c93398be-377d-46ce-8dd0-7c9ba9a0fb98">
+<p local-id=3D"869f5cba23cd"><strong>ttl_exec_add_count / ttl_exec_remove_c=
+ount</strong> =E2=80=93 Executor churn (autoscaling add/remove events per r=
+un), indicating burstiness.</p></li>
+<li local-id=3D"b69db792-ed90-4419-a89a-cee42904724c">
+<p local-id=3D"d35245a04495"><strong>avg_max_single_task_duration_sec / avg=
+_tasks_cnt / avg_total_tasks_time_sec</strong> =E2=80=93 Task-level skew si=
+gnals used in risk scoring.</p></li>
+</ul>
+<p local-id=3D"96f67f1bd009"><strong>Step 2: ETL Framework for Dataset Gene=
+ration</strong></p>
+<p local-id=3D"b5566e13a609"><em>(unchanged =E2=80=94 your description of t=
+he pipeline stages and output tables matches the notebooks exactly: </em><c=
+ode>dxm_run_level_exec_stats_log</code><em>, </em><code>dxm_run_level_sys_s=
+tats</code><em>, </em><code>dxm_run_level_stats_log</code><em>, </em><code>=
+job_level_stats</code><em>. Optionally add one line noting two supporting u=
+tilities not otherwise mentioned: a static config-drift scanner that flags =
+runtime Spark config overrides invisible to cluster-boot logs, and a task-a=
+ttribution step that resolves stage/SQL-plan stats to individual tasks in m=
+ulti-task jobs.)</em></p>
+<h2 local-id=3D"7022720c833b" id=3D"CloudPulse-AIOptimizer-Step3:AI-DrivenR=
+ecommendationGeneration"><strong><span data-colorid=3D"utaz10li9q">Step 3: =
+AI-Driven Recommendation Generation</span></strong></h2>
+<p local-id=3D"8adc69cdd16f">Once the curated and fully engineered dataset =
+is prepared, recommendations are generated through a <strong>hybrid engine<=
+/strong> that combines deterministic scoring with AI-driven reasoning =E2=
+=80=94 not a single end-to-end AI call.</p>
+<p local-id=3D"458fbe3e9509"><em>Cluster right-sizing</em> (node type and a=
+utoscaling range adjustments) is generated directly by the AI model, which =
+analyses CPU, memory, and GC utilization signals against the node specifica=
+tion catalog for each job.</p>
+<p local-id=3D"0983c376d6af"><em>Serverless viability</em> is computed diff=
+erently and more conservatively, since it carries direct cost and reliabili=
+ty risk if wrong:</p>
+<ul local-id=3D"674e5c6c-5009-4cd2-b933-9b2fe5a38544">
+<li local-id=3D"bacc15d7-dd24-45f5-8ecb-07ce1935bb8c">
+<p local-id=3D"6b6c05ae3531">A deterministic scoring formula (computed upst=
+ream in the ETL pipeline, not by the AI) produces an <code>infra_benefit_sc=
+ore</code>, <code>risk_score</code>, and combined <code>serverless_score</c=
+ode> for every job, weighting factors like burstiness, idle waste, start-up=
+ latency, shuffle intensity, disk spill, GC pressure, and task skew.</p></l=
+i>
+<li local-id=3D"08bd8989-f4e2-4b22-a85e-acfef750ab6d">
+<p local-id=3D"ba4fc5f68e89">The AI model's role is constrained to <strong>=
+explaining and, in ambiguous cases, adjusting that score by exactly one ste=
+p</strong> =E2=80=94 it cannot override a hard disqualifier (e.g., any disk=
+ spill), and it can never upgrade a "Not Recommended" job straight to "Reco=
+mmended."</p></li>
+<li local-id=3D"e48d95ae-257d-48a0-85b3-b4a38d047bd4">
+<p local-id=3D"60e56d51fba6">If the AI call fails for any reason, the syste=
+m falls back to the deterministic score rather than blocking the recommenda=
+tion.</p></li>
+</ul>
+<p local-id=3D"359744314924">This hybrid design is what keeps outputs consi=
+stent, interpretable, and resistant to hallucination =E2=80=94 the AI layer=
+ is advisory, not authoritative, over decisions with direct cost impact.</p=
+>
+<p local-id=3D"7a0f63acfe19">Recommendation outputs include:</p>
+<ul local-id=3D"48005c88-9069-43ad-b691-193709451809">
+<li local-id=3D"99b7bb3d-cf43-4775-a3ca-c0d36bbfca4e">
+<p local-id=3D"d4e00868ead2">Recommended node type adjustments</p></li>
+<li local-id=3D"1d73e82f-6284-4fc8-ae70-e1a828433cf9">
+<p local-id=3D"c02729c948bb">Optimized autoscaling ranges</p></li>
+<li local-id=3D"34d9cfc6-fcae-4cc9-9f43-e712d41aafa1">
+<p local-id=3D"87d52307f895">Serverless viability checks with explainable r=
+easoning</p></li>
+<li local-id=3D"63a37aaf-0aee-49be-99ac-10733c3936f1">
+<p local-id=3D"d6765739b750">Cost-efficiency improvement opportunities</p><=
+/li>
+</ul>
+<h2 local-id=3D"427a07294dd6" id=3D"CloudPulse-AIOptimizer-Step4:Integratio=
+nwithDatabricksApps(CloudPulseUI)"><strong><span data-colorid=3D"pmrllwpc9m=
+">Step 4: Integration with Databricks Apps (Cloud Pulse UI)</span></strong>=
+</h2>
+<p local-id=3D"3e8ccd14d124">The final stage delivers the AI-generated insi=
+ghts through an intuitive and interactive interface within the Cloud Pulse =
+Databricks App. This UI enables users to seamlessly consume, interpret, and=
+ act on the recommendations. It provides:</p>
+<ul local-id=3D"dccdb209-e14a-41f9-8400-175c09b7135e">
+<li local-id=3D"569c1316-0974-4848-afd1-1e3e1603b9ef">
+<p local-id=3D"a186117d857c">Clear job-level configuration recommendations<=
+/p></li>
+<li local-id=3D"44a9d754-ded7-478c-8423-27ad1ca4f6fb">
+<p local-id=3D"1ddacbd24313">Visual indicators of performance and cost inef=
+ficiencies</p></li>
+<li local-id=3D"1e1c1ee2-9bc3-4e7f-9287-eafe9e766219">
+<p local-id=3D"9bfe47c848f9">Actionable insights presented in an accessible=
+, user-friendly format</p></li>
+</ul>
+<p local-id=3D"1292024a5455">Beyond the baseline recommendations, the inter=
+face also surfaces advanced operational intelligence, including:</p>
+<ul local-id=3D"af7f86dc-2215-4684-92ca-47404017b8ff">
+<li local-id=3D"53b64f35-f6c5-4517-94d7-7a74c9e7801a">
+<p local-id=3D"36e2e7773503"><strong>Serverless viability evaluations</stro=
+ng> for each job, accompanied by detailed justification</p></li>
+<li local-id=3D"4ea89718-b185-4fea-9879-201cc4831163">
+<p local-id=3D"701a3448f68e"><strong>Provisioning assessments</strong> to i=
+dentify whether jobs are under-provisioned, over-provisioned, or appropriat=
+ely sized, with contextual reasoning</p></li>
+</ul>
+<p local-id=3D"feaced290791">The dashboard further highlights key financial=
+ and optimization metrics:</p>
+<ul local-id=3D"29ef0861-058b-4fce-b658-6649651f54ae">
+<li local-id=3D"f756eab1-82bf-4fbc-acfb-2cda493658aa">
+<p local-id=3D"bdc39baf1a6b"><strong>Top 10 most expensive jobs</strong>, i=
+ncluding current vs. projected cost and estimated annual savings</p></li>
+<li local-id=3D"e0a47396-52b5-4b77-910f-0c0dd66c2637">
+<p local-id=3D"73bf0786cc71"><strong>DBU consumption comparison</strong> (c=
+urrent vs. optimized), with potential annual DBU reductions</p></li>
+<li local-id=3D"5eadd8fb-835a-4f97-8738-0f7de3507462">
+<p local-id=3D"d8f123d22ec8"><strong>Optimization progress metrics</strong>=
+, showing how many jobs have been optimized and how many remain</p></li>
+<li local-id=3D"7f3cf970-e3f5-40fb-9627-79f89ed76e1c">
+<p local-id=3D"47f783f3e97b"><strong>Overall improvement percentages</stron=
+g> resulting from the recommended configurations</p></li>
+</ul>
+<p local-id=3D"14d233e76387">This integration ensures that insights are not=
+ only generated by the AI engine but are effectively surfaced and operation=
+alized, driving real-world optimization across teams and workloads.<br></p>
+<h1 local-id=3D"1920d8c63661" id=3D"CloudPulse-AIOptimizer-ApplicationInter=
+face">:application: <strong><span data-colorid=3D"qlk95bcv6z">Application I=
+nterface</span></strong></h1>
+<h2 local-id=3D"b65f89c4651c" id=3D"CloudPulse-AIOptimizer-Benefits&amp;Bus=
+inessImpact">:benefits: <span data-colorid=3D"j1zirhzomp">Benefits</span> <=
+span data-colorid=3D"xk12r0d89p">&amp;</span> <span data-colorid=3D"l641n1q=
+2ri">Business Impact</span></h2>
+<div class=3D"table-wrap">
+<table data-table-width=3D"730" data-layout=3D"center" data-local-id=3D"65f=
+54d3d-e17f-41e7-a740-a134abe2600f" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 182.0px;">
+<col style=3D"width: 162.0px;">
+<col style=3D"width: 178.0px;">
+<col style=3D"width: 204.0px;">
+</colgroup>
+<tbody>
+<tr data-local-id=3D"dadb9dbb-09c6-4b26-b4cf-bb0bcfc9b3b1">
+<th data-local-id=3D"6319bbea-6146-4da2-922a-60c716518dfe" class=3D"conflue=
+nceTh">
+<p local-id=3D"55903a3cca9d" style=3D"text-align: center;"><strong>Metric</=
+strong></p></th>
+<th data-local-id=3D"6fe6e6bc-4ef4-4a50-b09d-91f9ea38671f" class=3D"conflue=
+nceTh">
+<p local-id=3D"4b59358179a8" style=3D"text-align: center;"><strong>Pre-Opti=
+mization</strong></p></th>
+<th data-local-id=3D"fcd6ad95-3a75-43f8-97da-ce394884b73c" class=3D"conflue=
+nceTh">
+<p local-id=3D"008cedf296ee" style=3D"text-align: center;"><strong>Post-Opt=
+imization</strong></p></th>
+<th data-local-id=3D"55374331-ccec-431a-85fd-5d7ddbb61855" class=3D"conflue=
+nceTh">
+<p local-id=3D"93e7988833a6" style=3D"text-align: center;"><strong>Impact</=
+strong></p></th>
+</tr>
+<tr data-local-id=3D"b69df6e9-4924-4df4-a26b-1e3ba798c2f9">
+<td data-local-id=3D"4a55f29d-3da4-40bf-986e-cb1eebe849e9" class=3D"conflue=
+nceTd">
+<p local-id=3D"5f71fb52ea6d">Worker Node Utilization</p></td>
+<td data-local-id=3D"bcd29e4e-826c-41c9-995a-22d026846fac" class=3D"conflue=
+nceTd">
+<p local-id=3D"bfbaddd90ea7">720</p></td>
+<td data-local-id=3D"6d269cab-0c6f-4d11-b0e2-2bf6a4604fe0" class=3D"conflue=
+nceTd">
+<p local-id=3D"cd625444fde6">390</p></td>
+<td data-local-id=3D"672e48bd-5c61-4f7a-ac91-de21773f0abf" class=3D"conflue=
+nceTd">
+<p local-id=3D"0dc3ab1d1fe7"><strong><span data-colorid=3D"b1n64rm0no">=E2=
+=86=93 46% reduction in utilization</span></strong></p></td>
+</tr>
+<tr data-local-id=3D"9a606f4a-899b-4cf5-b8bf-643497ef8a9a">
+<td data-local-id=3D"307f9877-09e3-4941-a84a-535fe4475c7a" class=3D"conflue=
+nceTd">
+<p local-id=3D"abc357e53012">Jobs Optimized</p></td>
+<td data-local-id=3D"90058afd-b316-4bcb-b167-0e12faa32be1" class=3D"conflue=
+nceTd">
+<p local-id=3D"68dd2e16e15a">=E2=80=94</p></td>
+<td data-local-id=3D"f3288634-c566-4186-9f2d-d9d15dd0dac4" class=3D"conflue=
+nceTd">
+<p local-id=3D"f5734859052f">219 of 328</p></td>
+<td data-local-id=3D"60ba86f6-bc73-499e-9c40-368738645f8a" class=3D"conflue=
+nceTd">
+<p local-id=3D"005ae4676425"><strong><span data-colorid=3D"k18xwujqd1">67% =
+jobs optimized</span></strong></p></td>
+</tr>
+<tr data-local-id=3D"5a78e573-2a1b-4251-b20d-450d6ea6b4f1">
+<td data-local-id=3D"50a88609-60b1-4322-ac5b-be770f30d709" class=3D"conflue=
+nceTd">
+<p local-id=3D"1887e2fda46a">Annual DBU Usage</p></td>
+<td data-local-id=3D"88d65224-7e7f-420e-8c1e-d5b48ce7bf66" class=3D"conflue=
+nceTd">
+<p local-id=3D"79075ac11502">240,192</p></td>
+<td data-local-id=3D"6f82f67e-5d64-4591-9d00-d73aab421cf1" class=3D"conflue=
+nceTd">
+<p local-id=3D"6d584fac202c">158,930</p></td>
+<td data-local-id=3D"6bc2c8d2-cc3b-4d20-93fc-c354e0062211" class=3D"conflue=
+nceTd">
+<p local-id=3D"0d0df69b4bba"><strong><span data-colorid=3D"juw7e7xwpz">=E2=
+=86=93 38% (81,262 DBUs saved annually)</span></strong></p></td>
+</tr>
+<tr data-local-id=3D"34b198c8-5daf-4bb0-b373-bd81e066263b">
+<td data-local-id=3D"cf005fba-d011-4709-baf1-22185a30f489" class=3D"conflue=
+nceTd">
+<p local-id=3D"a46305195750">Projected Annual Cost</p></td>
+<td data-local-id=3D"fbff53fb-c537-4750-aa6c-eb66d0a8cfed" class=3D"conflue=
+nceTd">
+<p local-id=3D"2e96b0b3e19f">$72,238</p></td>
+<td data-local-id=3D"d3a850ff-4f8f-4b9c-861f-3952b349ed29" class=3D"conflue=
+nceTd">
+<p local-id=3D"b3ec3a4db3c6">$51,509</p></td>
+<td data-local-id=3D"6e0a8b84-7ffe-43e5-bc1c-9df3426ed530" class=3D"conflue=
+nceTd">
+<p local-id=3D"407a7527b21d"><strong><span data-colorid=3D"uu3awndnvc">=E2=
+=86=93 $20,729 (28% cost savings)</span></strong></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 local-id=3D"273c2add5311" style=3D"margin-left: 30.0px;" id=3D"CloudPul=
+se-AIOptimizer-1.ImprovedPerformance"><strong>1. Improved Performance</stro=
+ng></h3>
+<ul local-id=3D"03386167-5433-4683-aa8d-94fd53558545">
+<li local-id=3D"5b442ed3fb7d">
+<ul local-id=3D"ce333880c075">
+<li local-id=3D"cc4464220628">
+<ul local-id=3D"5c19a0b57391">
+<li local-id=3D"34b1b110-eaa6-420a-ae99-b61a4bc0c3eb">
+<p local-id=3D"aa4fa427fa19">Faster execution of Databricks ETL workflows</=
+p></li>
+<li local-id=3D"c9217b36-c697-4d7c-b8eb-5f6adca1a987">
+<p local-id=3D"637379a2b491">Fewer out-of-memory errors, reduced shuffle ov=
+erhead, and minimized task wait times</p></li>
+</ul></li>
+</ul></li>
+</ul>
+<h3 local-id=3D"0592455b8a08" style=3D"margin-left: 30.0px;" id=3D"CloudPul=
+se-AIOptimizer-2.SignificantCostSavings"><strong>2. Significant Cost Saving=
+s</strong></h3>
+<ul local-id=3D"972b1ff5-22a0-4b5e-ac69-d725f88bd2f2">
+<li local-id=3D"90ca64846e22">
+<ul local-id=3D"6ecfe2487c77">
+<li local-id=3D"8367ef4d5977">
+<ul local-id=3D"b89cbda56f51">
+<li local-id=3D"fae97baf-7da7-4f34-bbb7-254801204e3a">
+<p local-id=3D"891e7a783604">Removal of wasted spending from oversized or u=
+nderutilized clusters</p></li>
+<li local-id=3D"55602ee4-1900-473e-955d-8bfba2678f06">
+<p local-id=3D"49b24247fdd6">More efficient autoscaling aligned with worklo=
+ad activity</p></li>
+<li local-id=3D"b1d05c4e-4ffd-47d3-95f8-7cd8f222b9b7">
+<p local-id=3D"d1aa87e1a0c3">Lower DBU usage resulting from shorter job dur=
+ation and higher resource efficiency</p></li>
+</ul></li>
+</ul></li>
+</ul>
+<h3 local-id=3D"8320adcb9fae" style=3D"margin-left: 30.0px;" id=3D"CloudPul=
+se-AIOptimizer-3.GreaterClusterStability"><strong>3. Greater Cluster Stabil=
+ity</strong></h3>
+<ul local-id=3D"d6c68abd-99d8-43d5-9072-e7ae92697a61">
+<li local-id=3D"17260554537a">
+<ul local-id=3D"ed87452f2570">
+<li local-id=3D"f2f24368641b">
+<ul local-id=3D"b0fac4507442">
+<li local-id=3D"e457e383-f71c-4bc3-9d92-dc3f5b64a08a">
+<p local-id=3D"e50f930a240b">Reduced executor crashes, retries, and job fai=
+lures</p></li>
+<li local-id=3D"dd3800d8-79ba-4ae1-a6dc-af4f94c130ab">
+<p local-id=3D"4ac5fe8775ba">More predictable workload behaviour due to opt=
+imized memory and Spark configurations</p></li>
+<li local-id=3D"6ae6b308-74e1-47e9-8440-15a53a05ae3b">
+<p local-id=3D"bea830f19711">Lower risk of cluster restarts caused by resou=
+rce mismanagement</p></li>
+</ul></li>
+</ul></li>
+</ul>
+<h3 local-id=3D"f90acb553a17" style=3D"margin-left: 30.0px;" id=3D"CloudPul=
+se-AIOptimizer-4.EnhancedResourceUtilization"><strong>4. Enhanced Resource =
+Utilization</strong></h3>
+<ul local-id=3D"f88b442e-c5c8-43f9-a38d-725d0d2714f4">
+<li local-id=3D"9afab9792717">
+<ul local-id=3D"65af214029a7">
+<li local-id=3D"17867a55fad6">
+<ul local-id=3D"52fb66de4638">
+<li local-id=3D"1724b3fc-aeab-4c82-9603-1ad6251f8b44">
+<p local-id=3D"51764a1adc96">Better CPU and memory utilization through righ=
+t-sized cluster configurations</p></li>
+<li local-id=3D"ffe66f63-c398-4310-806d-17ea31aee24f">
+<p local-id=3D"d5668ec47b1e">Avoidance of idle executors or unnecessarily e=
+xpensive VM types</p></li>
+<li local-id=3D"522d5df6-8d57-4597-a5f6-07d437c9c65e">
+<p local-id=3D"d30013ed6f1e">Balanced concurrency to minimize contention an=
+d maximize throughput</p></li>
+</ul></li>
+</ul></li>
+</ul>
+<h3 local-id=3D"f352a53a0aba" style=3D"margin-left: 30.0px;" id=3D"CloudPul=
+se-AIOptimizer-5.Automation&amp;Intelligence"><strong>5. Automation &amp; I=
+ntelligence</strong></h3>
+<ul local-id=3D"88479ece-9774-4661-9018-529d9f888701">
+<li local-id=3D"6a21d6716fb1">
+<ul local-id=3D"61899d026632">
+<li local-id=3D"fdbead275665">
+<ul local-id=3D"a99804d3b91a">
+<li local-id=3D"78fbe27d-935a-4ce3-bdb1-a45b11a6a0c9">
+<p local-id=3D"c29372879ee7">Automated recommendations based on actual work=
+load patterns</p></li>
+<li local-id=3D"5a574193-9e84-4419-ba6c-5b7ecb085b99">
+<p local-id=3D"db051528e8c3">Consistent application of best practices acros=
+s users and projects</p></li>
+<li local-id=3D"ca381909-16fe-4a57-8116-4f543f9ca6f8">
+<p local-id=3D"3ebd87990d5c">Reduced dependency on expert intervention or m=
+anual tuning</p></li>
+</ul></li>
+</ul></li>
+</ul>
+<h3 local-id=3D"37e765d87271" style=3D"margin-left: 30.0px;" id=3D"CloudPul=
+se-AIOptimizer-6.Scalability&amp;Future-Readiness"><strong>6. Scalability &=
+amp; Future-Readiness</strong></h3>
+<ul local-id=3D"35030368-1086-4818-b3eb-5e6088801424">
+<li local-id=3D"ea90d21df1c6">
+<ul local-id=3D"9546c187ff40">
+<li local-id=3D"0dff33ecc6d4">
+<ul local-id=3D"aa8a63b865ee">
+<li local-id=3D"34a8564f-82c2-4bae-805b-59ca5f1a0611">
+<p local-id=3D"f516e25184ef">Supports growth in data volume without sacrifi=
+cing performance</p></li>
+<li local-id=3D"e2de9475-8328-4638-8f95-63d02d24b503">
+<p local-id=3D"8c2231ed94e8">Ensures cluster configurations evolve with cha=
+nging workload demands</p></li>
+<li local-id=3D"28441349-ecdd-4f4d-998e-8d96ed5985f6">
+<p local-id=3D"6e9b9be37171">Prepares organizations for large-scale, enterp=
+rise-grade operations</p></li>
+</ul></li>
+</ul></li>
+</ul>
+<h2 local-id=3D"8cc3108b-4a72-4964-ba11-39db2ba5c3bb" id=3D"CloudPulse-AIOp=
+timizer-Appreciations">:appreciation: <span data-colorid=3D"mnxrou13qp">App=
+reciations</span></h2><span class=3D"confluence-embedded-file-wrapper image=
+-center-wrapper confluence-embedded-manual-size"><img class=3D"confluence-e=
+mbedded-image confluence-external-resource image-center" alt=3D"image-20260=
+303-062521.png" width=3D"680" src=3D"https://media-cdn.atlassian.com/file/f=
+f7cf689-ac18-4e55-b9ac-88e6f4444914/image/cdn?allowAnimated=3Dtrue&amp;clie=
+nt=3D9111851d-8de5-42d2-b17e-a8b4c648978c&amp;collection=3DcontentId-157220=
+8670&amp;height=3D125&amp;max-age=3D2592000&amp;mode=3Dfull-fit&amp;source=
+=3DmediaCard&amp;token=3DeyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI5MTExODUxZC04ZGU1L=
+TQyZDItYjE3ZS1hOGI0YzY0ODk3OGMiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0=
+aW9uOmNvbnRlbnRJZC0xNTcyMjA4NjcwIjpbInJlYWQiXX0sImV4cCI6MTc4NjUzMTI4NiwibmJ=
+mIjoxNzg2NTI4NDA2LCJhYUlkIjoiNzEyMDIwOjdjMzYwNTZiLTg2YzAtNGZiNC05NGE4LWI2YW=
+FjZGY4Nzg5OSIsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZ=
+SwiYXV0aFR5cGUiOiJzZXNzaW9uIn0.vVflf0IdUNBivp0DtlEDrOEcDciZEjnK8bNOWBX2ZaE&=
+amp;width=3D760#media-blob-url=3Dtrue&amp;id=3Dff7cf689-ac18-4e55-b9ac-88e6=
+f4444914&amp;clientId=3D9111851d-8de5-42d2-b17e-a8b4c648978c&amp;contextId=
+=3DcontentId-1572208670&amp;collection=3DcontentId-1572208670" data-image-s=
+rc=3D"https://media-cdn.atlassian.com/file/ff7cf689-ac18-4e55-b9ac-88e6f444=
+4914/image/cdn?allowAnimated=3Dtrue&amp;client=3D9111851d-8de5-42d2-b17e-a8=
+b4c648978c&amp;collection=3DcontentId-1572208670&amp;height=3D125&amp;max-a=
+ge=3D2592000&amp;mode=3Dfull-fit&amp;source=3DmediaCard&amp;token=3DeyJhbGc=
+iOiJIUzI1NiJ9.eyJpc3MiOiI5MTExODUxZC04ZGU1LTQyZDItYjE3ZS1hOGI0YzY0ODk3OGMiL=
+CJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC0xNTcyMjA4Njcw=
+IjpbInJlYWQiXX0sImV4cCI6MTc4NjUzMTI4NiwibmJmIjoxNzg2NTI4NDA2LCJhYUlkIjoiNzE=
+yMDIwOjdjMzYwNTZiLTg2YzAtNGZiNC05NGE4LWI2YWFjZGY4Nzg5OSIsImh0dHBzOi8vaWQuYX=
+RsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZSwiYXV0aFR5cGUiOiJzZXNzaW9uIn0.v=
+Vflf0IdUNBivp0DtlEDrOEcDciZEjnK8bNOWBX2ZaE&amp;width=3D760#media-blob-url=
+=3Dtrue&amp;id=3Dff7cf689-ac18-4e55-b9ac-88e6f4444914&amp;clientId=3D911185=
+1d-8de5-42d2-b17e-a8b4c648978c&amp;contextId=3DcontentId-1572208670&amp;col=
+lection=3DcontentId-1572208670" loading=3D"lazy"></span><span class=3D"conf=
+luence-embedded-file-wrapper image-center-wrapper confluence-embedded-manua=
+l-size"><img class=3D"confluence-embedded-image confluence-external-resourc=
+e image-center" alt=3D"image-20260303-062648.png" width=3D"680" src=3D"http=
+s://media-cdn.atlassian.com/file/a52f972a-bba8-445a-a3b7-42550b09ddfc/image=
+/cdn?allowAnimated=3Dtrue&amp;client=3D9111851d-8de5-42d2-b17e-a8b4c648978c=
+&amp;collection=3DcontentId-1572208670&amp;height=3D125&amp;max-age=3D25920=
+00&amp;mode=3Dfull-fit&amp;source=3DmediaCard&amp;token=3DeyJhbGciOiJIUzI1N=
+iJ9.eyJpc3MiOiI5MTExODUxZC04ZGU1LTQyZDItYjE3ZS1hOGI0YzY0ODk3OGMiLCJhY2Nlc3M=
+iOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC0xNTcyMjA4NjcwIjpbInJlYW=
+QiXX0sImV4cCI6MTc4NjUzMTI4NiwibmJmIjoxNzg2NTI4NDA2LCJhYUlkIjoiNzEyMDIwOjdjM=
+zYwNTZiLTg2YzAtNGZiNC05NGE4LWI2YWFjZGY4Nzg5OSIsImh0dHBzOi8vaWQuYXRsYXNzaWFu=
+LmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZSwiYXV0aFR5cGUiOiJzZXNzaW9uIn0.vVflf0IdUNB=
+ivp0DtlEDrOEcDciZEjnK8bNOWBX2ZaE&amp;width=3D760#media-blob-url=3Dtrue&amp;=
+id=3Da52f972a-bba8-445a-a3b7-42550b09ddfc&amp;clientId=3D9111851d-8de5-42d2=
+-b17e-a8b4c648978c&amp;contextId=3DcontentId-1572208670&amp;collection=3Dco=
+ntentId-1572208670" data-image-src=3D"https://media-cdn.atlassian.com/file/=
+a52f972a-bba8-445a-a3b7-42550b09ddfc/image/cdn?allowAnimated=3Dtrue&amp;cli=
+ent=3D9111851d-8de5-42d2-b17e-a8b4c648978c&amp;collection=3DcontentId-15722=
+08670&amp;height=3D125&amp;max-age=3D2592000&amp;mode=3Dfull-fit&amp;source=
+=3DmediaCard&amp;token=3DeyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI5MTExODUxZC04ZGU1L=
+TQyZDItYjE3ZS1hOGI0YzY0ODk3OGMiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0=
+aW9uOmNvbnRlbnRJZC0xNTcyMjA4NjcwIjpbInJlYWQiXX0sImV4cCI6MTc4NjUzMTI4NiwibmJ=
+mIjoxNzg2NTI4NDA2LCJhYUlkIjoiNzEyMDIwOjdjMzYwNTZiLTg2YzAtNGZiNC05NGE4LWI2YW=
+FjZGY4Nzg5OSIsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZ=
+SwiYXV0aFR5cGUiOiJzZXNzaW9uIn0.vVflf0IdUNBivp0DtlEDrOEcDciZEjnK8bNOWBX2ZaE&=
+amp;width=3D760#media-blob-url=3Dtrue&amp;id=3Da52f972a-bba8-445a-a3b7-4255=
+0b09ddfc&amp;clientId=3D9111851d-8de5-42d2-b17e-a8b4c648978c&amp;contextId=
+=3DcontentId-1572208670&amp;collection=3DcontentId-1572208670" loading=3D"l=
+azy"></span><span class=3D"confluence-embedded-file-wrapper image-center-wr=
+apper confluence-embedded-manual-size"><img class=3D"confluence-embedded-im=
+age confluence-external-resource image-center" alt=3D"image-20260303-062933=
+.png" width=3D"680" src=3D"https://media-cdn.atlassian.com/file/264c65ec-f7=
+bb-4b34-b2aa-9497c77803b5/image/cdn?allowAnimated=3Dtrue&amp;client=3D91118=
+51d-8de5-42d2-b17e-a8b4c648978c&amp;collection=3DcontentId-1572208670&amp;h=
+eight=3D125&amp;max-age=3D2592000&amp;mode=3Dfull-fit&amp;source=3DmediaCar=
+d&amp;token=3DeyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI5MTExODUxZC04ZGU1LTQyZDItYjE3=
+ZS1hOGI0YzY0ODk3OGMiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnR=
+lbnRJZC0xNTcyMjA4NjcwIjpbInJlYWQiXX0sImV4cCI6MTc4NjUzMTI4NiwibmJmIjoxNzg2NT=
+I4NDA2LCJhYUlkIjoiNzEyMDIwOjdjMzYwNTZiLTg2YzAtNGZiNC05NGE4LWI2YWFjZGY4Nzg5O=
+SIsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZSwiYXV0aFR5=
+cGUiOiJzZXNzaW9uIn0.vVflf0IdUNBivp0DtlEDrOEcDciZEjnK8bNOWBX2ZaE&amp;width=
+=3D760#media-blob-url=3Dtrue&amp;id=3D264c65ec-f7bb-4b34-b2aa-9497c77803b5&=
+amp;clientId=3D9111851d-8de5-42d2-b17e-a8b4c648978c&amp;contextId=3Dcontent=
+Id-1572208670&amp;collection=3DcontentId-1572208670" data-image-src=3D"http=
+s://media-cdn.atlassian.com/file/264c65ec-f7bb-4b34-b2aa-9497c77803b5/image=
+/cdn?allowAnimated=3Dtrue&amp;client=3D9111851d-8de5-42d2-b17e-a8b4c648978c=
+&amp;collection=3DcontentId-1572208670&amp;height=3D125&amp;max-age=3D25920=
+00&amp;mode=3Dfull-fit&amp;source=3DmediaCard&amp;token=3DeyJhbGciOiJIUzI1N=
+iJ9.eyJpc3MiOiI5MTExODUxZC04ZGU1LTQyZDItYjE3ZS1hOGI0YzY0ODk3OGMiLCJhY2Nlc3M=
+iOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC0xNTcyMjA4NjcwIjpbInJlYW=
+QiXX0sImV4cCI6MTc4NjUzMTI4NiwibmJmIjoxNzg2NTI4NDA2LCJhYUlkIjoiNzEyMDIwOjdjM=
+zYwNTZiLTg2YzAtNGZiNC05NGE4LWI2YWFjZGY4Nzg5OSIsImh0dHBzOi8vaWQuYXRsYXNzaWFu=
+LmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZSwiYXV0aFR5cGUiOiJzZXNzaW9uIn0.vVflf0IdUNB=
+ivp0DtlEDrOEcDciZEjnK8bNOWBX2ZaE&amp;width=3D760#media-blob-url=3Dtrue&amp;=
+id=3D264c65ec-f7bb-4b34-b2aa-9497c77803b5&amp;clientId=3D9111851d-8de5-42d2=
+-b17e-a8b4c648978c&amp;contextId=3DcontentId-1572208670&amp;collection=3Dco=
+ntentId-1572208670" loading=3D"lazy"></span><span class=3D"confluence-embed=
+ded-file-wrapper image-center-wrapper confluence-embedded-manual-size"><img=
+ class=3D"confluence-embedded-image confluence-external-resource image-cent=
+er" alt=3D"image-20260303-063023.png" width=3D"680" src=3D"https://media-cd=
+n.atlassian.com/file/2e1b61a7-8a8f-4165-a105-7155e2477f7b/image/cdn?allowAn=
+imated=3Dtrue&amp;client=3D9111851d-8de5-42d2-b17e-a8b4c648978c&amp;collect=
+ion=3DcontentId-1572208670&amp;height=3D125&amp;max-age=3D2592000&amp;mode=
+=3Dfull-fit&amp;source=3DmediaCard&amp;token=3DeyJhbGciOiJIUzI1NiJ9.eyJpc3M=
+iOiI5MTExODUxZC04ZGU1LTQyZDItYjE3ZS1hOGI0YzY0ODk3OGMiLCJhY2Nlc3MiOnsidXJuOm=
+ZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnRlbnRJZC0xNTcyMjA4NjcwIjpbInJlYWQiXX0sImV4c=
+CI6MTc4NjUzMTI4NiwibmJmIjoxNzg2NTI4NDA2LCJhYUlkIjoiNzEyMDIwOjdjMzYwNTZiLTg2=
+YzAtNGZiNC05NGE4LWI2YWFjZGY4Nzg5OSIsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHB=
+BY2NyZWRpdGVkIjpmYWxzZSwiYXV0aFR5cGUiOiJzZXNzaW9uIn0.vVflf0IdUNBivp0DtlEDrO=
+EcDciZEjnK8bNOWBX2ZaE&amp;width=3D760#media-blob-url=3Dtrue&amp;id=3D2e1b61=
+a7-8a8f-4165-a105-7155e2477f7b&amp;clientId=3D9111851d-8de5-42d2-b17e-a8b4c=
+648978c&amp;contextId=3DcontentId-1572208670&amp;collection=3DcontentId-157=
+2208670" data-image-src=3D"https://media-cdn.atlassian.com/file/2e1b61a7-8a=
+8f-4165-a105-7155e2477f7b/image/cdn?allowAnimated=3Dtrue&amp;client=3D91118=
+51d-8de5-42d2-b17e-a8b4c648978c&amp;collection=3DcontentId-1572208670&amp;h=
+eight=3D125&amp;max-age=3D2592000&amp;mode=3Dfull-fit&amp;source=3DmediaCar=
+d&amp;token=3DeyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI5MTExODUxZC04ZGU1LTQyZDItYjE3=
+ZS1hOGI0YzY0ODk3OGMiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpjb2xsZWN0aW9uOmNvbnR=
+lbnRJZC0xNTcyMjA4NjcwIjpbInJlYWQiXX0sImV4cCI6MTc4NjUzMTI4NiwibmJmIjoxNzg2NT=
+I4NDA2LCJhYUlkIjoiNzEyMDIwOjdjMzYwNTZiLTg2YzAtNGZiNC05NGE4LWI2YWFjZGY4Nzg5O=
+SIsImh0dHBzOi8vaWQuYXRsYXNzaWFuLmNvbS9hcHBBY2NyZWRpdGVkIjpmYWxzZSwiYXV0aFR5=
+cGUiOiJzZXNzaW9uIn0.vVflf0IdUNBivp0DtlEDrOEcDciZEjnK8bNOWBX2ZaE&amp;width=
+=3D760#media-blob-url=3Dtrue&amp;id=3D2e1b61a7-8a8f-4165-a105-7155e2477f7b&=
+amp;clientId=3D9111851d-8de5-42d2-b17e-a8b4c648978c&amp;contextId=3Dcontent=
+Id-1572208670&amp;collection=3DcontentId-1572208670" loading=3D"lazy"></spa=
+n>
+    </div>
+</body>
+</html>
+------=_Part_92_596391288.1786543906227--
