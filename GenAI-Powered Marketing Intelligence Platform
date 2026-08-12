@@ -1,0 +1,219 @@
+🏢 Client Overview
+
+The Intuit CRM Analytics (CRMA) team plays a vital role in optimizing user journeys and driving growth across the QuickBooks ecosystem. The CRMA team's core mission is to deliver AI/ML-driven, personalized, actionable insights to provide delightful customer experiences and drive ecosystem revenue.
+
+Our LatentView team is embedded within CRMA and owns the analytics engine behind marketing campaigns, experimentation, and product performance across Intuit's Growth Products portfolio — including Payments, Payroll, Capital, Bill Pay, IBCC, and QBO Core. Our services span weekly performance commentary, A/B experiment analysis, wrap reporting, and self-service product analytics dashboards.
+
+🔮Overview about the Project
+
+The CRMA AI Analytics Platform is a suite of interconnected, AI-powered modules that automate the full marketing analytics lifecycle — from weekly narrative generation, to experiment health tracking, to automated readouts, to decision-ready wrap analysis — all unified under a single self-service workbench (the CRMA Hub).
+
+Rather than a single tool, the platform is the analytics backbone for Intuit's Growth Products portfolio. Each product team gets its own experiment registry, automated sanity pipeline, and wrap-analysis workflow, all running on shared infrastructure and accessible from one place.
+
+❗Problem Statement
+
+Intuit's CRMA organization manages marketing campaigns across 30+ product domains. Every week, the team needed to produce leadership commentary, track 100+ live experiments, generate readouts at precise baking milestones, and deliver wrap-up analysis to inform ramp/kill decisions. All of this was manual.
+
+The manual process created recurring pain:
+
+~40 Lifecycle Marketing Managers spending ~2 hours each on weekly commentary.
+
+Analysts pulling experiment data from Excel, computing metrics by hand, and manually publishing HTML dashboards.
+
+Experiment readouts (Day 0 / 2 / 9 / 25 / 40) tracked from memory and spreadsheets — readouts missed, numbers mismatched, feedback lost.
+
+Reporting scaling linearly with business complexity — every new experiment added directly to the workload.
+
+🔧 Approach / Methodology
+
+We designed and delivered the platform in phases over ~3 months, shipping six production modules that each reinforce the others.
+
+Phase 1: Channel Health Commentary Agent (May 2026)
+
+An AI agent generates a weekly 5-section ELM engagement brief from pipeline data. Stakeholders review and comment inline; a second AI agent incorporates feedback automatically. Published to an interactive dashboard and QuickSight for leadership.
+
+Phase 2: AURA Experiments Dashboard (Jun 2026)
+
+An automated pipeline tracks 30+ experiments, computes ITC, classifies each signal (Positive / Mixed / Flat / Negative), and generates AI commentary per experiment — refreshed weekly on zero-infra hosting.
+
+Phase 3: Experiment Auto-Executor (Jun 2026)
+
+Automates the full experiment lifecycle — D0 learning plan, D2 sanity check, and D9/D25/D40 baking readouts — triggered by days-since-launch. Zero missed readouts; scales to 150+ experiments.
+
+Phase 4: AI-Powered Wrap Analysis (Jun 2026)
+
+AI-assisted wrap reports with Bayesian statistical tests, guardrail checks, and cross-validation against source dashboards — delivering decision-ready ramp/kill recommendations to product managers and experiment owners.
+
+Phase 5: Product Analytics Dashboards (ongoing)
+
+Dedicated live analytics dashboards for Payments, Payroll, Capital, IBCC, and Bill Pay — each with an experiment registry, an automated daily sanity pipeline, and weekly business reviews.
+
+Phase 6: CRMA Hub — Unified Analytics Workbench (Jul 2026)
+
+A single self-service front door aggregating every AI output across 30+ product domains, with deep-linkable views, live experiment registries, and embedded reports.
+
+The result is a compounding value loop: Data Pipelines → AI-Generated Insight → Interactive Dashboards → Faster Decisions, with stakeholder feedback flowing back into the AI automatically.
+
+
+
+
+
+⚙️Technologies Used
+
+Technology
+
+Role in the Platform
+
+Claude (Anthropic)
+
+Narrative generation, comment summarization, experiment commentary
+
+Cursor AI Agents
+
+Multi-agent orchestration with versioned rule books
+
+MCP Protocol
+
+Tool integration across Slack, GitHub, Quickbase, and Databricks
+
+Superglue
+
+Pipeline orchestration for daily / weekly scheduled runs
+
+Databricks
+
+ELM Data Warehouse, experiment metrics, and ITC computation
+
+GitHub Pages
+
+Zero-infra hosting for all interactive dashboards
+
+📈Business Impact
+
+~$2.9M Annualized revenue impact
+
+  4,300+ Hours saved / year
+
+  109+ Experiments monitored
+
+  6+ Client appreciations
+
+
+
+Revenue Impact — ~$2.9M Annualized
+
+Our AI-powered wrap analysis directly informed ramp/kill decisions across a portfolio of A/B experiments. The consolidated annualized revenue impact from experiments our team analyzed and de-risked:
+
+Experiment / Program
+
+Outcome
+
+Annualized Revenue
+
+Contextual AP in Reports
+
+Positive
+
++$1.70M
+
+Reimagine Checkout V1
+
+Positive
+
++$627K
+
+Discovery Center V2 (ELM-9057)
+
+Directionally Positive
+
++$483K
+
+Winback / Reactivation (evergreen)
+
+Positive
+
++$120K
+
+Annual Plan Retest (ELM-7790)
+
+Positive
+
++$27.5K
+
+Total Annualized Revenue Impact
+
+≈ $2.96M
+
+
+
+The Winback / Reactivation program alone is projected at $3.2M cumulative over 3 years (6.6k incremental units). Beyond revenue enablement, our wrap analysis also prevented costly rollouts — negative signals (e.g. ELM-9051, ELM-10285) were caught before ramp, protecting revenue and avoiding a projected loss of ~25,400 payments/year on one experiment alone.
+
+Productivity & Cost Savings
+
+Module
+
+Before
+
+After
+
+Impact
+
+Channel Health Commentary
+
+2 hrs × 40 people, weekly
+
+Fully automated
+
+80 hrs/week saved
+
+AURA Experiments
+
+3–4 hrs/week pulling + formatting
+
+Auto-refreshed weekly
+
+175+ hrs/year
+
+Auto-Executor
+
+Manual readouts at D0/D2/D9/D25/D40
+
+Auto-triggered daily
+
+4+ hrs/day saved
+
+Wrap Analysis
+
+3–5 days per report
+
+1–2 days with AI-assisted QC
+
+~60% faster
+
+In summary: the platform saves 4,300+ analyst hours per year (~2 FTEs), monitors 109+ experiments across 5 product lines with zero missed readouts, and has published 80+ consecutive weeks of structured commentary.
+
+🤝Contribution to LatentView
+
+Team-generated idea: The client had accepted the manual process as the norm. Our team independently identified the inefficiency, designed the multi-agent AI architecture, and proposed it proactively — the core innovation was LatentView-originated.
+
+Proven cross-team scaling: The same architecture was re-deployed (config-driven) for the other Intuit(QBO Retention) team — a clear early signal of billed expansion within an existing logo.
+
+Client reference secured: An Intuit stakeholder explicitly offered to act as a reference — direct, on-record validation for new-business conversations.
+
+Reusable framework: The pattern (automated pipelines + AI analysis + interactive dashboards) is client-agnostic and packageable as an "AI-Powered Analytics Platform" service offering for any client with recurring reporting, A/B testing, or fragmented BI.
+
+
+
+ Appreciations 
+
+
+
+
+
+
+
+
+
+
+
+
