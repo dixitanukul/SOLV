@@ -1,0 +1,180 @@
+CONTRACT INTELLIGENCE PLATFORM - 12-MINUTE COMPETITION STORY
+Target speaking time: 11:25 | Safety buffer: 0:35 | Slides: 15
+Recommended delivery pace: 120-125 words per minute, including deliberate pauses
+
+SLIDE 01 | 0:35 | Which contract term governs today?
+DELIVERY: Open slowly. Pause after the question.
+
+Good morning. Let me begin with one question: which contract term governs today? A rate may appear in a base agreement, change in an amendment, change again in a corrected version, and still look perfectly valid in every file. In healthcare, choosing the wrong version can affect a payment, a negotiation, or an audit. CIP was built to determine the governing answer - and prove it.
+
+TRANSITION: To understand why that is difficult, we first need to understand the contract estate.
+
+[SOURCES] APPLICATION_SHOWCASE.md - What This Application Is | PIPELINE_SHOWCASE.md - The Vision
+
+--------------------------------------------------------------------------
+
+SLIDE 02 | 0:35 | Scale is only half the challenge; contract state is harder
+DELIVERY: Use the four figures as anchors; do not read every line.
+
+The implemented corpus already contains more than 10,500 documents, about 408,000 pages, 27 gigabytes of source material, and 328 providers. But volume is only the visible problem. The deeper problem is structural: versions, amendment chains, repeated numbering, scanned pages, inconsistent names, and missing current-state metadata. A normal search can find several plausible answers. It cannot tell us which answer is legally and temporally valid now.
+
+TRANSITION: One provider makes that complexity tangible.
+
+[SOURCES] PPT_CONTENT_OUTLINE.md - Contract Landscape | COMPETITION_WINNER.md - Supersession Problem
+
+--------------------------------------------------------------------------
+
+SLIDE 03 | 0:45 | One provider can create 1,000+ interpretation paths
+DELIVERY: Tell this as a human investigation, moving left to right.
+
+Mercy General illustrates the real problem: 109 files, four base agreements, 66 sub-contract IDs, and parallel contract chains. An analyst cannot simply search for a rate. They must identify plausible files, reconstruct the amendment history, separate parallel versions, and often ask a contract expert which document was executed. That creates more than a thousand possible interpretation paths. The danger is not only lost time. A stale but plausible answer can apply a superseded reimbursement term, miss a renewal window, or leave an audit trail that has to be rebuilt manually.
+
+TRANSITION: So the solution could not be a chatbot placed on top of a folder of PDFs.
+
+[SOURCES] COMPETITION_WINNER.md - Mercy General and Supersession Problem | PPT_CONTENT_OUTLINE.md - Deep Dive
+
+--------------------------------------------------------------------------
+
+SLIDE 04 | 0:25 | CIP converts static contracts into governed intelligence
+DELIVERY: Emphasize the three verbs: digitize, resolve, reuse.
+
+Our design has three jobs. First, digitize each contract and its supporting documents once. Second, continuously resolve relationships, dates, supersession, and current-effective state. Third, reuse that governed intelligence across questions, comparisons, renewals, and portfolio analytics. The governing principle is simple: deterministic logic where possible, AI where necessary, and evidence at every step.
+
+TRANSITION: The data pipeline is what turns that principle into an enterprise foundation.
+
+[SOURCES] PIPELINE_SHOWCASE.md - Digitize Once, Reuse Everywhere | APPLICATION_SHOWCASE.md - Architecture
+
+--------------------------------------------------------------------------
+
+SLIDE 05 | 1:20 | The pipeline scales without rebuilding the corpus
+DELIVERY: Walk across the diagram in seven stages. Slow down on structured state and incremental scale.
+
+This diagram shows the complete data journey. On the left are the source documents: contracts, amendments, exhibits, rate sheets, and reference files. In ingestion, Auto Loader detects new or changed files, OCR converts scanned pages to text, and layout extraction preserves tables and page structure. Processing then chunks the text, extracts metadata, recognizes clauses and entities, normalizes inconsistent rate terminology, and links amendments. The result is structured contract data: providers, contracts, rates, obligations, compliance terms, deadlines, and events. That data is stored in three complementary forms - processed files in the lake, governed relational tables, and vector embeddings for semantic retrieval. The serving layer combines search, natural-language processing, ranking, business rules, calculations, and confidence checks. Only after all of that does the application receive intelligence-ready data. Underneath are sixteen orchestrated stages and forty-five governed Delta tables. Checkpoints, file hashes, distributed OCR, incremental MERGE, and changed-unit re-indexing mean we process what changed rather than rebuild everything. More than 10,500 documents are implemented today; the same pipeline supports incremental expansion toward 30,000-plus.
+
+TRANSITION: But scalable extraction still does not answer the hardest question: which version governs?
+
+[SOURCES] PIPELINE_SHOWCASE.md - Technology Stack and 16 Pipeline Stages | PPT_CONTENT_OUTLINE.md - Databricks Pipeline Architecture
+
+--------------------------------------------------------------------------
+
+SLIDE 06 | 0:40 | The state engine determines what is valid now
+DELIVERY: Trace the chain, then land on lineage.
+
+The state engine is the technical heart of CIP. It reconstructs the chain from base agreement to amendment, partial replacement, corrected version, and current state. It evaluates lifecycle, effective dates, version relationships, provision-level supersession, and parallel contract chains independently. The output is not merely a document marked current. It is a defensible lineage: a contract fact, its state relationship, and the exact document and page supporting it. That is how retrieval can return information that is both relevant and valid now.
+
+TRANSITION: Once state is resolved, the next challenge is recovering all of the evidence without missing exact language or related provisions.
+
+[SOURCES] PIPELINE_SHOWCASE.md - Stage 07 State Engine | COMPETITION_WINNER.md - The Supersession Problem
+
+--------------------------------------------------------------------------
+
+SLIDE 07 | 0:35 | Four retrieval channels recover complete evidence
+DELIVERY: Contrast the four channels; avoid deep algorithm detail.
+
+Generic RAG normally embeds text and retrieves the nearest passages. CIP uses four channels because legal and financial questions fail in different ways. Semantic search handles varied language. Lexical search finds exact terms and dollar values. Metadata and SQL apply provider, date, and current-state filters. Structural retrieval follows related clauses and amendment chains. Reciprocal-rank fusion combines that evidence, and domain normalization maps inconsistent labels to a common taxonomy. This is contract reasoning, not simple document search.
+
+TRANSITION: The application then turns this governed evidence into a usable business experience.
+
+[SOURCES] PIPELINE_SHOWCASE.md - 4-Channel Hybrid Retrieval | APPLICATION_SHOWCASE.md - Data Retrieval and Evidence Gathering
+
+--------------------------------------------------------------------------
+
+SLIDE 08 | 1:15 | The application is an evidence-seeking agent
+DELIVERY: Explain the diagram from personas to response, then the controls along the bottom.
+
+The application diagram shows how users interact with the foundation. Contract Operations, Finance, Compliance, Network Strategy, and leadership enter through a natural-language interface with contract views, dashboards, alerts, and document access. In the backend, query understanding identifies intent and data requirements. A retrieval orchestrator then chooses the right combination of structured data, vector search, business rules, calculations, and original documents. The AI and analytics engine synthesizes only after the evidence has been gathered. Validation checks citations, confidence, completeness, and whether the answer is actually supported. The response is delivered with source links, page references, supporting tables, confidence indicators, and suggested follow-up questions. Underneath, role-based security, audit monitoring, governance, and user feedback make the process controllable. Sixteen question routes and more than thirty specialized tools allow one question to use different capabilities - for example, a rate lookup, an amendment-chain traversal, a comparison, and a calculation. AI coordinates the work; it does not replace the data model or business logic.
+
+TRANSITION: That separation is also how we control trust and cost.
+
+[SOURCES] APPLICATION_SHOWCASE.md - Application Architecture and Question-to-Answer Flow | APPLICATION_SHOWCASE.md - Specialized Tools and Frontend Experience
+
+--------------------------------------------------------------------------
+
+SLIDE 09 | 0:50 | Trust and cost are engineered together
+DELIVERY: Stress that most controls are deterministic and zero-token.
+
+Before a question is answered, five pipeline gates have already checked OCR quality, extraction structure, data integrity, contract state, and retrieval readiness. After the question, layered controls validate routing, numeric consistency, provider identity, dates, absence claims, grounding, citations, and completeness. If evidence is insufficient, the system should refuse or lower confidence rather than manufacture certainty. Most of these checks use Python, SQL, and rules - not another LLM call. The same philosophy controls cost: simple work stays deterministic, tools retrieve only what is needed, and current testing keeps even complicated answers typically below one dollar of LLM inference, excluding shared Databricks compute.
+
+TRANSITION: The best way to see the difference is through one governing-answer example.
+
+[SOURCES] PIPELINE_SHOWCASE.md - 5-Gate Quality Framework | APPLICATION_SHOWCASE.md - Hallucination Prevention and Answer Validation | BUSINESS_VALUE.md - Technology-Driven Cost Optimization
+
+--------------------------------------------------------------------------
+
+SLIDE 10 | 0:55 | Demo: the governing answer comes with proof
+DELIVERY: Pause after the answer and point to the evidence panel.
+
+Consider the question: what is the current inpatient per-diem rate, and which amendment established it? A conventional assistant might find the earlier rate because the wording is clear and highly relevant. CIP first resolves the current contract state, then retrieves both the governing term and the superseded history. The answer is 2,847 dollars per day, established by the Fifteenth Amendment CM; the earlier 2,614-dollar rate is identified as superseded. On the right, the evidence panel shows the source document, page and section, the superseded document, the checks performed, and the confidence basis. The value is not the fluent sentence. The value is that the answer, evidence, and lineage agree.
+
+TRANSITION: Once that capability exists, it becomes reusable far beyond a single question.
+
+[SOURCES] COMPETITION_WINNER.md - Before vs. After Scenario | APPLICATION_SHOWCASE.md - Evidence Panel and Process Trail
+
+--------------------------------------------------------------------------
+
+SLIDE 11 | 0:30 | One foundation can enable seven enterprise functions
+DELIVERY: Describe the operating model, not hypothetical user adoption.
+
+The same governed foundation can support claims and utilization decisions, provider relations and network strategy, analytics, compliance, audit, and executive visibility. Each function uses a different view, but they no longer need separate interpretations of the same contract. This is the enterprise idea behind Global Contract Intelligence: digitize the knowledge once, govern it centrally, and reuse it across workflows.
+
+TRANSITION: That reuse is also the source of the economic value.
+
+[SOURCES] PIPELINE_SHOWCASE.md - Who This Transforms | BUSINESS_VALUE.md - Wider Business Benefits
+
+--------------------------------------------------------------------------
+
+SLIDE 12 | 0:55 | Technology is ready; value realization comes next
+DELIVERY: Be precise: implemented capability, estimated value, next-stage adoption.
+
+The technology is ready to use: more than 10,500 documents have been processed, the pipeline and application are implemented, and the contract-state and evidence workflow is operational. The client has recognized an estimated annual opportunity of roughly 690 thousand to 1.04 million dollars: 308 thousand from reduced research effort, 54 thousand from onboarding, 179 thousand from renewal preparation, and 150 to 500 thousand from potential vendor avoidance. These are estimated opportunities, not realized savings, because active adoption and benefits measurement come next. The path is controlled deployment, incremental expansion toward 30,000-plus documents, and a Stellarus-led route for possible multi-plan productization. No external pilot or license is represented here as committed.
+
+TRANSITION: That honest separation between technology readiness and realized value also strengthens the comparison with the other finalists.
+
+[SOURCES] BUSINESS_VALUE.md - Client-Recognized Estimated Value | User-confirmed deployment and adoption status
+
+--------------------------------------------------------------------------
+
+SLIDE 13 | 0:50 | CIP spans more engineering layers than other finalists
+DELIVERY: Stay respectful. Compare categories and engineering span, not people.
+
+The other finalists solve worthwhile but narrower problems. Cloud Pulse optimizes cloud operations from structured metrics. CRMA organizes experiment intelligence. Delphi combines document retrieval and natural-language-to-SQL for general questions. CIP starts with a harder state problem: legal, financial, and temporal precedence across a large historical corpus. It then spans ingestion, OCR, structured extraction, a 45-table model, supersession state, four-channel retrieval, specialized tools, validation, and a full application. The distinction is not that CIP uses more AI. It is that CIP uses AI more selectively inside a much larger governed system. The product is the complete document-to-decision chain.
+
+TRANSITION: Three breakthroughs explain why that chain is difficult to reproduce.
+
+[SOURCES] COMPETITION_WINNER.md - Head-to-Head Comparison and Hardest Problems | Submitted finalist documentation summarized in COMPETITION_WINNER.md
+
+--------------------------------------------------------------------------
+
+SLIDE 14 | 0:40 | Three breakthroughs put CIP in a different category
+DELIVERY: Land one sentence on each breakthrough.
+
+First, supersession-aware state: the system computes what governs when several documents contain plausible terms. Second, deterministic-first trust: Python, SQL, validation rules, and source checks surround the model so unsupported claims can be caught or refused. Third, a domain-specific agent: routing, decomposition, and specialized tools choose the right evidence and logic for each question. Together, these required data engineering, AI engineering, retrieval, governance, full-stack development, testing, and deep contract-domain reasoning. The innovation is not a model call. It is the engineered system around it.
+
+TRANSITION: That brings us back to the question we started with.
+
+[SOURCES] COMPETITION_WINNER.md - Lessons Learned and Hardest Problems | PIPELINE_SHOWCASE.md - Technical Innovation
+
+--------------------------------------------------------------------------
+
+SLIDE 15 | 0:35 | From raw contracts to governed decisions
+DELIVERY: Finish slowly and decisively. Do not add a generic thank-you line before the final sentence.
+
+Which contract term governs today? CIP can answer because it does the work beneath the answer: more than 10,500 documents structured, a sixteen-stage pipeline, forty-five governed tables, supersession-aware state, layered validation, and page-level evidence. It is ready for controlled adoption and measurement, with a credible path to enterprise reuse. This is not a chatbot over documents. It is an enterprise contract-intelligence foundation - from raw contracts to the governing answer, with the evidence to prove it.
+
+TRANSITION: Thank you. I am happy to take your questions.
+
+[SOURCES] APPLICATION_SHOWCASE.md - Bottom Line | PIPELINE_SHOWCASE.md - Bottom Line | BUSINESS_VALUE.md - Estimated Opportunity
+
+--------------------------------------------------------------------------
+
+TIMING CHECK
+Problem and stakes (Slides 1-3): 1:55
+Solution, pipeline and application (Slides 4-10): 6:00
+Enterprise value and competition case (Slides 11-14): 2:55
+Close (Slide 15): 0:35
+TOTAL TARGET: 11:25 | BUFFER TO 12:00: 0:35
+
+EMERGENCY TIME CUTS
+If running 20 seconds late: shorten Slide 7 to the first four sentences.
+If running 40 seconds late: also omit the final two sentences on Slide 11.
+Do not cut Slides 3, 5, 8, 12 or 13; they carry the core competition argument.
